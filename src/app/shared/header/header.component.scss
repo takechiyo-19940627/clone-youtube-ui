@@ -1,0 +1,41 @@
+.container {
+  height: 56px;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+
+  .left-side-content {
+    display: flex;
+    flex-direction: row;
+
+    .guide-icon-button {
+      width: 40px;
+      height: 40px;
+      padding: 8px;
+
+      .guide-button {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        color: inherit;
+        outline: none;
+        background: none;
+        line-height: 0;
+        cursor: pointer;
+      }
+    }
+
+    .yt-logo {
+      padding: 18px 14px 18px 16px;
+      width: 97px;
+
+      .logo-img {
+        height: 20px;
+      }
+    }
+  }
+}
