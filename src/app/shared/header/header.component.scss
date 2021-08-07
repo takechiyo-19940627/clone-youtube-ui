@@ -93,6 +93,15 @@
             }
           }
         }
+
+        .search-button-container {
+          cursor: pointer;
+          width: 65px;
+          border: 1px solid hsl(0, 0%, 18.82%);
+          background-color: hsla(0, 0%, 100%, 0.08);
+          border-radius: 0 2px 2px 0;
+          margin: 0;
+        }
       }
     }
   }
