@@ -41,8 +41,17 @@
         </button>
       </form>
     </div>
-    <div class="search-icon-button"></div>
-    <div class="voice-search-button"></div>
+    <div class="voice-search-wrapper">
+      <div class="voice-search-button-wrapper">
+        <a class="voice-search-link">
+          <div class="voice-search-button-container">
+            <button class="voice-search-button" aria-label="音声で検索">
+              <mat-icon [ngStyle]="{ color: 'white' }">mic</mat-icon>
+            </button>
+          </div>
+        </a>
+      </div>
+    </div>
   </div>
   <div class="right-side-content"></div>
 </div>
